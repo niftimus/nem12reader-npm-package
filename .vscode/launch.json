@@ -1,0 +1,23 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch Program",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}/src/convert.ts",
+            "preLaunchTask": "tsc: build - tsconfig.json",
+            "outFiles": [
+                "${workspaceFolder}/out/**/*.js"
+            ],
+            "args": ["--inputFile", "tests/data/64070000001_20220518_20230518_20230519185451_UNITEDENERGY_VEC-small.csv",
+        "--format","csv", "--shape", "long", "--outputFile", "test-output.csv"]
+        }
+    ]
+}

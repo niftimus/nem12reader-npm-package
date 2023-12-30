@@ -1,0 +1,24 @@
+upper_uom,uom,description,canonical,multiplier_to_canonical,additive
+MWH,MWh,megawatt hour,kWh,1000,TRUE
+KWH,kWh,kilowatt hour,kWh,1,TRUE
+WH,Wh,watt hour,kWh,0.001,TRUE
+MVARH,MVArh,megavolt ampere reactive hour (megavar hour),kVArh,1000,TRUE
+KVARH,kVArh,kilovolt ampere reactive hour,kVArh,1,TRUE
+VARH,VArh,volt ampere reactive hour,kVArh,0.001,TRUE
+MVAR,MVAr,megavolt ampere reactive,kVAr,1000,FALSE
+KVAR,kVAr,kilovolt ampere reactive,kVAr,1,FALSE
+VAR,VAr,volt ampere reactive,kVAr,0.001,FALSE
+MW,MW,megawatt,kW,1000,FALSE
+KW,kW,kilowatt,kW,1,FALSE
+W,W,watt,kW,0.001,FALSE
+MVAH,MVAh,megavolt ampere hour,kVAh,1000,TRUE
+KVAH,kVAh,kilovolt ampere hour,kVAh,1,TRUE
+VAH,VAh,volt ampere hour,kVAh,0.001,TRUE
+MVA,MVA,megavolt ampere,kVA,1000,FALSE
+KVA,kVA,kilovolt ampere,kVA,1,FALSE
+VA,VA,volt ampere,kVA,0.001,FALSE
+KV,kV,kilovolt,V,1000,FALSE
+V,V,volt,V,1,FALSE
+KA,kA,kiloampere,A,1000,FALSE
+A,A,ampere,A,1,FALSE
+PF,pf,Power Factor,pf,1,FALSE
