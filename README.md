@@ -74,7 +74,7 @@ ts-node src/convert.ts --inputFile tests/data/64070000001_20220518_20230518_2023
 
 6. Install local .tgz package:
     ```BASH
-    npm install ../nem12-reader-npm-package/nem12-reader-npm-package-0.0.1.tgz
+    npm install ../nem12reader-npm-package/nem12-reader-npm-package-0.0.1.tgz
     ```
 
 7. Create demo code:
